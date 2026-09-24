@@ -1,4 +1,4 @@
-from groq import AsyncGroq
+from mini_llm_gateway.providers.groq import AsyncGroq
 from langchain_groq.chat_models import ChatGroq
 
 from mini_llm_gateway.providers.base import BaseLLM

@@ -4,7 +4,15 @@ version = "0.1.0"
 description = "A lightweight gateway for LLM providers"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google>=3.0.0",
+    "google-genai>=2.25.0",
+    "langchain-core>=1.6.5",
+    "langchain-google-genai>=4.4.0",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.6.6",
+    "openai>=3.19.2",
+]
 
 [build-system]
 requires = ["hatchling"]
